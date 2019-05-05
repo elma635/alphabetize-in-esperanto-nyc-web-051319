@@ -1,15 +1,14 @@
 require 'pry'
 
-ESPERANTO_ALPHABET = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
+ESPERANTO_ALPHABET = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz" #this is in the global scope, so ruby will check for it if it doesnt find it in the block 
 
 
 def alphabetize(arr)
-
     arr.sort_by do |word|
       word.split('').map do |letter|
     ESPERANTO_ALPHABET.index(letter)
+    end
   end
-end
 end
 
 
