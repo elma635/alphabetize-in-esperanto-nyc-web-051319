@@ -8,6 +8,23 @@ arr.sort_by do |word|
 end
 end
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # - should use char
 # - should use map
 
