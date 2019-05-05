@@ -6,7 +6,7 @@ ESPERANTO_ALPHABET = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz" #this is in the global
 def alphabetize(arr)
     arr.sort_by do |word|
       word.split('').map do |letter|
-    ESPERANTO_ALPHABET.index(letter)
+    ESPERANTO_ALPHABET.index(letter) #searches for letter's value in that variable & looks for the position. 
     end
   end
 end
