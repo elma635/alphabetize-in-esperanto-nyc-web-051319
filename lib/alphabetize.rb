@@ -1,6 +1,6 @@
 require 'pry'
 
-ESPERANTO_ALPHABET = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz" #this is in the global scope, so ruby will check for it if it doesnt find it in the block 
+ESPERANTO_ALPHABET = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz" #this is in the global scope, so ruby will check for it if it doesnt find it in the block
 
 
 def alphabetize(arr)
